@@ -1,0 +1,73 @@
+1. Frontend, Backend and Full-stack
+Frontend: The part users see and use. Example: buttons, pages and menus on Amazon.
+Backend: The server-side code that handles data, login and business logic.
+Example: Amazon's system processing a login or order.
+Full-stack: Works on both frontend and backend.
+
+2. Client-Server Model
+
+Client/Browser
+      |
+   Request
+      v
+ Web Server
+      |
+   Response
+      v
+Client/Browser
+
+3. How a browser displays a web page
+The browser gets the website address, finds the server using DNS, and sends an HTTP/HTTPS request. The server sends back HTML, CSS, JavaScript and other files. The browser processes them and displays the page.
+
+4. Web development tools
+- VS Code: Write and edit code.
+- Browser: Test websites.
+- Git: Track code changes.
+- GitHub: Store and share code.
+- Node.js: Run JavaScript outside the browser.
+- npm: Install JavaScript packages.
+- Developer Tools: Debug websites.
+- Local server: Test websites locally.
+
+5. Web Server
+A web server receives requests from browsers and sends web content back.
+Examples: Apache, Nginx, Microsoft IIS, LiteSpeed and Caddy.
+
+6. Roles
+Frontend Developer: Builds the user interface.
+Backend Developer: Builds server-side logic, APIs and authentication.
+Database Administrator: Manages databases, security, backups and performance.
+
+7. VS Code Setup
+Install VS Code, create a project folder, and add index.html, style.css and script.js. Install the Live Server extension if needed. Open the HTML file using Live Server and take a screenshot of the setup.
+
+8. Static vs Dynamic Websites
+Static: Content is mostly fixed. Example: a simple portfolio website.
+Dynamic: Content changes based on users or database data. Example: Instagram.
+
+9. Five Browsers and Rendering Engines
+- Chrome: Blink
+- Edge: Blink
+- Firefox: Gecko
+- Safari: WebKit
+- Opera: Blink
+
+Rendering engines convert HTML and CSS into the page displayed by the browser.
+
+10. Basic Web Architecture
+
+Client
+  |
+  v
+Server <----> APIs
+  |
+  v
+Database
+  |
+  v
+Response
+  |
+  v
+Client
+
+The client sends requests, the server processes them, APIs handle communication, and the database stores information.
