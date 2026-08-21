@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.box {
+    width: 250px;
+    padding: 20px;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.named-color {
+    background-color: tomato;
+}
+
+.hex-color {
+    background-color: #3366cc;
+}
+
+.rgb-color {
+    background-color: rgb(60, 160, 90);
+}
+
+.gradient-bg {
+    background: linear-gradient(to right, purple, orange);
+}
