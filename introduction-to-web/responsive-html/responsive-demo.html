@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive HTML Demo</title>
+    <style>
+        .box {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+            width: 90%;
+        }
+
+        @media (max-width: 600px) {
+            .box {
+                background-color: lightcoral;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Responsive HTML Demo</h1>
+
+    <p>The meta viewport tag tells the browser how to adjust the page on different screen sizes.</p>
+
+    <div class="box">
+        <p>Resize the browser window. This box changes color when the screen is small.</p>
+    </div>
+
+</body>
+</html>
