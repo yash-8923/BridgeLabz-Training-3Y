@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Frameset Layout</title>
+</head>
+<frameset rows="30%,70%">
+    <!-- Top frame contains navigation links. -->
+    <frame srcdoc='<!DOCTYPE html><html><body><nav><a href="about:blank">Home</a> | <a href="about:blank">About</a> | <a href="about:blank">Contact</a></nav></body></html>' title="Navigation">
+    <!-- Bottom frame displays the required welcome message. -->
+    <frame srcdoc='<!DOCTYPE html><html><body><h1>Welcome to My Website</h1></body></html>' title="Welcome message">
+</frameset>
+</html>
