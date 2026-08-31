@@ -1,0 +1,1 @@
+*{box-sizing:border-box}body{margin:0;background:#f4f6f8;font-family:Arial}main{padding:50px 6%}.team{display:flex;gap:24px}.team article{flex:1;padding:28px;margin:8px;border:2px solid #ccd3dc;border-radius:16px;background:#fff;box-shadow:0 8px 18px rgba(0,0,0,.12)}.team .lead{background:#e5f1ff;border:3px solid #3578c8}@media(max-width:600px){.team{flex-direction:column}}

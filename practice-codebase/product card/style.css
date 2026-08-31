@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* CARD */
+.card {
+  position: relative;
+  width: 214px;
+  height: 327px;
+  margin: 20px auto;
+  background: white;
+  border-radius: 11px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+}
+
+/* IMAGE */
+.product-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 214px;
+  height: 168px;
+  object-fit: cover;
+}
+
+/* DISCOUNT */
+.discount {
+  position: absolute;
+  top: 11px;
+  left: 11px;
+  padding: 5px 9px;
+  background: #ff1515;
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  border-radius: 12px;
+}
+
+/* HEART */
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 31px;
+  height: 31px;
+  background: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 31px;
+  font-size: 20px;
+  color: #111;
+}
+
+/* CONTENT */
+.content {
+  position: absolute;
+  top: 168px;
+  left: 0;
+  width: 214px;
+  height: 159px;
+}
+
+/* CATEGORY */
+.category {
+  position: absolute;
+  top: 21px;
+  left: 13px;
+  color: #0754b8;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/* TITLE */
+.title {
+  position: absolute;
+  top: 41px;
+  left: 13px;
+  color: #0754b8;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* RATING */
+.rating {
+  position: absolute;
+  top: 67px;
+  left: 13px;
+  color: #f5b900;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.rating span {
+  color: #777;
+  font-size: 11px;
+  letter-spacing: 0;
+}
+
+/* PRICE */
+.price {
+  position: absolute;
+  top: 90px;
+  left: 13px;
+  color: #111;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.price del {
+  margin-left: 8px;
+  color: #888;
+  font-size: 11px;
+  font-weight: normal;
+}
+
+/* BUTTON */
+.cart-btn {
+  position: absolute;
+  top: 117px;
+  left: 13px;
+  width: 188px;
+  height: 28px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.cart-btn:hover {
+  background: #222;
+}
