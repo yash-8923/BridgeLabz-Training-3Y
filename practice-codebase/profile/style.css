@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.card{
+    width: 200px;
+    height: 300px;
+    border: 1px;
+    background-color: yellow;
+    text-align: center;
+
+    box-shadow: -10px -10px 50px red;
+    /* background-image: linear-gradient(45deg, yellow 0% 50%, blue 60% 100%); */
+    background-image: linear-gradient( yellow, blue );
+}
