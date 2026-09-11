@@ -1,0 +1,26 @@
+.body{
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.box{
+border-top:3px solid blue;
+  border-radius:50%;
+
+  width:100px;
+  height:100px;
+  animation: move 2s infinite ease-in-out;
+}
+
+@keyframes move{
+  0%{
+    transform:rotate(0deg) 
+  }
+    100%{
+        transform:rotate(360deg) 
+    }
+
+}
