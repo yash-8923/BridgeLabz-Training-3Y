@@ -1,0 +1,3 @@
+body { background: #f8f9fa; font-family: Arial, sans-serif; }
+.plan-card { transition: transform 0.2s; }
+.plan-card:hover { transform: translateY(-6px); }
