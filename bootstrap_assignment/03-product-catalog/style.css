@@ -1,4 +1,0 @@
-body { font-family: Arial, sans-serif; }
-.product-card { transition: transform 0.2s; }
-.product-card:hover { transform: translateY(-5px); }
-.card-img-top { height: 180px; object-fit: cover; }
