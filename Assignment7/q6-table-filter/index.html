@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q6 - Real-Time Table Filter</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; }
+    button { padding: 6px 12px; margin: 2px; cursor: pointer; }
+    input, textarea { padding: 6px; box-sizing: border-box; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 6px; text-align: left; }
+  </style>
+</head>
+<body>
+  <h2>Q6 - Real-Time Table Filter</h2>
+  <input type="text" id="search" placeholder="Search students..." style="width:100%">
+  <table>
+    <thead><tr><th>Name</th><th>Branch</th><th>CGPA</th></tr></thead>
+    <tbody id="tableBody">
+      <tr><td>Amit</td><td>CSE</td><td>8.5</td></tr>
+      <tr><td>Sara</td><td>ECE</td><td>9.1</td></tr>
+      <tr><td>Kiran</td><td>Mechanical</td><td>7.8</td></tr>
+      <tr><td>Neha</td><td>CSE</td><td>8.9</td></tr>
+      <tr><td>Rohan</td><td>Civil</td><td>7.2</td></tr>
+    </tbody>
+  </table>
+  <p id="noResults" style="display:none">No results found</p>
+  <script src="script.js"></script>
+</body>
+</html>

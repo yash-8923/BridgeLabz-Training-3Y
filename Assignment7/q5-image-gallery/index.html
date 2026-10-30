@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q5 - Image Gallery with Modal</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; }
+    button { padding: 6px 12px; margin: 2px; cursor: pointer; }
+    input, textarea { padding: 6px; box-sizing: border-box; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .grid img { width: 100%; cursor: pointer; }
+    #modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.7); align-items: center; justify-content: center; }
+    #modal.open { display: flex; }
+    #modalBox { background: white; padding: 10px; }
+    #modalBox img { display: block; max-width: 80vw; max-height: 70vh; }
+  </style>
+</head>
+<body>
+  <h2>Q5 - Image Gallery with Modal</h2>
+  <div class="grid" id="grid"></div>
+  <div id="modal">
+    <div id="modalBox"><img id="modalImage" alt="Large view"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

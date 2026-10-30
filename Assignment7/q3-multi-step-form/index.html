@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q3 - Multi-Step Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; }
+    button { padding: 6px 12px; margin: 2px; cursor: pointer; }
+    input, textarea { padding: 6px; box-sizing: border-box; }
+    .step { display: none; }
+    .step.active { display: block; }
+    input { width: 100%; }
+    .error { color: red; min-height: 18px; }
+  </style>
+</head>
+<body>
+  <h2>Q3 - Multi-Step Form</h2>
+  <div class="step active" data-step="1">
+    <label>Step 1: Name</label>
+    <input type="text" id="name">
+  </div>
+  <div class="step" data-step="2">
+    <label>Step 2: Email</label>
+    <input type="text" id="email">
+  </div>
+  <div class="step" data-step="3">
+    <label>Step 3: Password (min 6 characters)</label>
+    <input type="password" id="password">
+  </div>
+  <div class="error" id="error"></div>
+  <button id="backBtn">Back</button>
+  <button id="nextBtn">Next</button>
+  <pre id="summary"></pre>
+  <script src="script.js"></script>
+</body>
+</html>

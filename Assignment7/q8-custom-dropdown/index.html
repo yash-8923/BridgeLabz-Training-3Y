@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q8 - Custom Dropdown</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; }
+    button { padding: 6px 12px; margin: 2px; cursor: pointer; }
+    input, textarea { padding: 6px; box-sizing: border-box; }
+    #dropdown { position: relative; display: inline-block; }
+    #dropBtn { width: 180px; text-align: left; }
+    #options { display: none; position: absolute; width: 180px; border: 1px solid #aaa; background: white; padding: 0; margin: 2px 0 0; list-style: none; }
+    #options.open { display: block; }
+    #options li { padding: 8px; cursor: pointer; }
+    #options li:hover { background: #e8f0ff; }
+  </style>
+</head>
+<body>
+  <h2>Q8 - Custom Dropdown</h2>
+  <div id="dropdown">
+    <button id="dropBtn">Select a fruit</button>
+    <ul id="options">
+      <li>Apple</li>
+      <li>Banana</li>
+      <li>Mango</li>
+      <li>Orange</li>
+    </ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

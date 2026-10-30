@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Q4 - Theme Switcher</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 520px; margin: 30px auto; }
+    button { padding: 6px 12px; margin: 2px; cursor: pointer; }
+    input, textarea { padding: 6px; box-sizing: border-box; }
+    body[data-theme="light"] { background: #ffffff; color: #222; }
+    body[data-theme="dark"] { background: #222; color: #f1f1f1; }
+    body[data-theme="blue"] { background: #d6e8ff; color: #0b2a55; }
+  </style>
+</head>
+<body>
+  <h2>Q4 - Theme Switcher</h2>
+  <p>Pick a theme:</p>
+  <button data-choose="light">Light</button>
+  <button data-choose="dark">Dark</button>
+  <button data-choose="blue">Blue</button>
+  <p id="current"></p>
+  <script src="script.js"></script>
+</body>
+</html>
