@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Q2 - Employee Status</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:720px;margin:30px auto;padding:0 15px;background:#f5f6fa;color:#222}
+h1{font-size:22px}
+input,select,button{padding:8px;font-size:15px;border:1px solid #bbb;border-radius:4px}
+button{background:#2d6cdf;color:#fff;border:none;cursor:pointer}
+.card{background:#fff;border:1px solid #ddd;border-radius:6px;padding:10px;margin:8px 0;display:flex;align-items:center;gap:12px}
+.error{color:#c0392b;font-weight:bold}.warn{background:#fff3cd;border:1px solid #e0c200;padding:10px;border-radius:4px;margin:10px 0}
+.muted{color:#777}
+</style>
+<style>
+.switch{position:relative;display:inline-block;width:46px;height:24px;margin-left:auto}
+.switch input{opacity:0;width:0;height:0}
+.slider{position:absolute;inset:0;background:#aaa;border-radius:24px;cursor:pointer;transition:.2s}
+.slider:before{content:"";position:absolute;height:18px;width:18px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.2s}
+input:checked + .slider{background:#27ae60}
+input:checked + .slider:before{transform:translateX(22px)}
+.badge{font-size:13px;padding:2px 8px;border-radius:10px;color:#fff}
+.badge.active{background:#27ae60}.badge.inactive{background:#888}
+</style>
+</head><body>
+<h1>Q2. Employee Status Dashboard</h1>
+<p id="message" class="error"></p>
+<div id="list">Loading...</div>
+<script src="script.js"></script>
+</body></html>

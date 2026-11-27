@@ -1,0 +1,10 @@
+{
+  "products": [
+    { "id": 1, "name": "Wireless Mouse", "price": 799, "image": "https://picsum.photos/seed/mouse/80/80" },
+    { "id": 2, "name": "Mechanical Keyboard", "price": 3499, "image": "https://picsum.photos/seed/keyboard/80/80" },
+    { "id": 3, "name": "USB-C Hub", "price": 1499, "image": "https://picsum.photos/seed/hub/80/80" },
+    { "id": 4, "name": "Bluetooth Speaker", "price": 2299, "image": "https://picsum.photos/seed/speaker/80/80" },
+    { "id": 5, "name": "Laptop Stand", "price": 999, "image": "https://picsum.photos/seed/stand/80/80" },
+    { "id": 6, "name": "Webcam HD", "price": 1899, "image": "https://picsum.photos/seed/webcam/80/80" }
+  ]
+}

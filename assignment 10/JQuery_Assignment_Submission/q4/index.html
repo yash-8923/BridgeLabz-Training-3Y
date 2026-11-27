@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><title>Q4 - Multi-API Dashboard</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:720px;margin:30px auto;padding:0 15px;background:#f5f6fa;color:#222}
+h1{font-size:22px}
+input,select,button{padding:8px;font-size:15px;border:1px solid #bbb;border-radius:4px}
+button{background:#2d6cdf;color:#fff;border:none;cursor:pointer}
+.card{background:#fff;border:1px solid #ddd;border-radius:6px;padding:10px;margin:8px 0;display:flex;align-items:center;gap:12px}
+.error{color:#c0392b;font-weight:bold}.warn{background:#fff3cd;border:1px solid #e0c200;padding:10px;border-radius:4px;margin:10px 0}
+.muted{color:#777}
+</style>
+<style>
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.stat{background:#fff;border:1px solid #ddd;border-radius:6px;padding:20px;text-align:center}
+.stat .num{font-size:32px;font-weight:bold;margin-top:8px}
+.skeleton .num{height:38px;border-radius:4px;background:linear-gradient(90deg,#e4e4e4 25%,#f2f2f2 50%,#e4e4e4 75%);background-size:200% 100%;animation:shine 1.2s infinite;color:transparent}
+@keyframes shine{to{background-position:-200% 0}}
+</style>
+</head><body>
+<h1>Q4. Multi-API Dashboard</h1>
+<div id="warning" class="warn" style="display:none">Some data could not be loaded.</div>
+<div class="grid">
+  <div class="stat skeleton" id="usersBox"><div>Total Users</div><div class="num">0</div></div>
+  <div class="stat skeleton" id="ordersBox"><div>Total Orders</div><div class="num">0</div></div>
+  <div class="stat skeleton" id="productsBox"><div>Total Products</div><div class="num">0</div></div>
+</div>
+<script src="script.js"></script>
+</body></html>

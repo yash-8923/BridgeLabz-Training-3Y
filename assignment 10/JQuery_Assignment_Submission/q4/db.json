@@ -1,0 +1,24 @@
+{
+  "users": [
+    { "id": 1, "name": "Aarav Sharma", "email": "aarav@example.com" },
+    { "id": 2, "name": "Diya Patel", "email": "diya@example.com" },
+    { "id": 3, "name": "Rohan Mehta", "email": "rohan@example.com" },
+    { "id": 4, "name": "Sneha Iyer", "email": "sneha@example.com" },
+    { "id": 5, "name": "Karan Singh", "email": "karan@example.com" }
+  ],
+  "orders": [
+    { "id": 1, "userId": 1, "item": "Laptop", "amount": 55000 },
+    { "id": 2, "userId": 2, "item": "Phone", "amount": 22000 },
+    { "id": 3, "userId": 3, "item": "Headphones", "amount": 3500 },
+    { "id": 4, "userId": 1, "item": "Keyboard", "amount": 1800 },
+    { "id": 5, "userId": 4, "item": "Monitor", "amount": 12000 },
+    { "id": 6, "userId": 5, "item": "Mouse", "amount": 700 }
+  ],
+  "products": [
+    { "id": 1, "name": "Laptop", "price": 55000 },
+    { "id": 2, "name": "Phone", "price": 22000 },
+    { "id": 3, "name": "Headphones", "price": 3500 },
+    { "id": 4, "name": "Keyboard", "price": 1800 },
+    { "id": 5, "name": "Monitor", "price": 12000 }
+  ]
+}

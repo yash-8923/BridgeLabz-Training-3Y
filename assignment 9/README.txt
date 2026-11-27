@@ -1,0 +1,1 @@
+Assignment 9 - jQuery. Extract ZIP, open q1-q10/index.html. Each question has separate HTML and script.js. Internet is needed for jQuery CDN. Q9 loads two versions and uses noConflict().
